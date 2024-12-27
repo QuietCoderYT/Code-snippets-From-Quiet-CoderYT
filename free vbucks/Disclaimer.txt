@@ -1,0 +1,5 @@
+DISCLAIMER:  
+This script is created purely for educational and entertainment purposes.  
+The script here is a harmless, fake prank intended to demonstrate batch scripting techniques.  
+We strongly discourage any unethical or illegal activities, including creating misleading or harmful software.  
+Respect others' privacy and property, and always use programming responsibly.  

